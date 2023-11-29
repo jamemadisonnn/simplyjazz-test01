@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimplyJazz (Website)</title>
+
+    <!--Style-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="MasterReset.css">
+    <link rel="stylesheet" href="MasterStyle.css">
+
+</head>
+<body>
+    <div class="mobile">
+        <section>
+            <!--Top-Section-->
+            <div class="spacer-140"></div>
+        </section>
+    
+        <div class="drink-menu">
+            <div class="decoy"></div>
+            <div class="menu-button">
+                <div class="button">
+                    <a href="index.html">
+                        <h1 class="hover">FOOD</h1>
+                    </a>
+                </div>
+                <div class="button">
+                    <a href="index.html">
+                        <h1 class="hover">DRINKS</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="button">
+            <a href="https://www.apple.com/my/">
+                <h1 class="hover">Click Me</h1>
+            </a>
+        </div>
+        <a href="https://www.apple.com/my/">
+            <div class="button">
+                <h1 class="hover txt-13">Click Me</h1>
+            </div>
+        </a>
+    
+        <h2>Experimental Menu-Site</h2>
+        <p>Click on the buttons to open the collapsible content.</p>
+            
+        <button class="accordion">
+            <div class="item-push">
+                <h1>Smocked Duck Salad</h1>
+                <h1>28</h1>
+            </div>
+        </button>
+            <div class="panel">
+                <img class="img-full" src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=3160&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            </div>
+            
+        <button class="accordion">Grill Chicken</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            
+        <button class="accordion">Ice-Cream Brownies</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+    </div>
+        
+     <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+          });
+        }
+     </script>
+        
+</body>
+</html>
