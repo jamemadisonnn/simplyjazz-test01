@@ -1,0 +1,20 @@
+/* ==============================
+MasterStyle v1.1 | 14.07.23
+License: none (public domain)
+============================== */
+
+/* BASIC SYSTEM */
+.display-flex {display: flex;}
+.item-push {justify-content: space-between;}
+
+/* CENTER CONTENT SYSTEM */
+.center {align-items: center;justify-content: center;}.center-grid {display: grid;place-items: center;}.justify-center {justify-content: center;}.align-center {align-items: center;}
+
+/* MARGIN & PADDING SYSTEM */
+.m-8 { margin: 8PX; }.m-16 { margin: 16px;}.m-24 { margin: 24px;}.m-32 { margin: 32px;}.m-40 { margin: 40px;}.m-48 { margin: 48px;}
+.mx-8 { margin: 0px 8PX 0px; }.mx-16 { margin: 0px 16PX 0px; }.mx-24 { margin: 0px 24PX 0px; }.mx-32 { margin: 0px 32PX 0px; }.mx-40 { margin: 0px 40PX 0px; }.mx-48 { margin: 0px 48PX 0px; }.mx-64 { margin: 0px 64PX 0px; }.mx-128 { margin: 0px 128PX 0px; }
+.my-8 { margin: 8px 0PX; }.my-16 { margin: 16px 0PX; }.my-24 { margin: 24px 0PX; }.my-32 { margin: 32px 0PX; }.my-40 { margin: 40px 0PX; }.my-48 { margin: 48px 0PX; }
+
+/* SPACER 8PT SYSTEM */
+.spacer-4 {height: 4px;}.spacer-8 {height: 8px;}.spacer-12 {height: 12px;}.spacer-16 {height: 16px;}.spacer-20 {height: 20px;}.spacer-24 {height: 24px;}.spacer-28 {height: 28px;}.spacer-32 {height: 32px;}.spacer-36 {height: 36px;}.spacer-40 {height: 40px;}.spacer-44 {height: 44px;}.spacer-48 {height: 48px;}.spacer-52 {height: 52px;}.spacer-56 {height: 56px;}.spacer-60 {height: 60px;}.spacer-64 {height: 64px;}.spacer-68 {height: 68px;}.spacer-72 {height: 72px;}.spacer-76 {height: 76px;}.spacer-80 {height: 80px;}.spacer-96 {height: 96px;} .spacer-140 {height: 140px;} .spacer-192 {height: 192px;}
+
